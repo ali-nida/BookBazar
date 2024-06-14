@@ -1,0 +1,74 @@
+/* Reset del box model */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Stile del body */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Stile dell'App */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Stile dell'intestazione */
+.App-header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Stile del logo */
+.App-logo {
+  width: 80px;
+  height: 80px;
+  animation: App-logo-spin 2s linear infinite;
+}
+
+/* Animazione del logo */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Stile del titolo */
+.App-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Stile del sottotitolo */
+.App-subtitle {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Stile del link */
+.App-link {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+/* Stile del link al passaggio del mouse */
+.App-link:hover {
+  color: #f8f9fa;
+}
